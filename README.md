@@ -1,6 +1,9 @@
 # k8s-cups
 Example of a [CUPS](https://www.cups.org/) print server from within [OpenShift](https://www.openshift.com/) or [Kubernetes](https://kubernetes.io/).
 
+## MAINTENANCE
+This repository is no longer maintained and is now archived.  For your cups-in-a-container needs, I highly recommend if you have an active Red Hat subscription the `registry.redhat.io/rhel9-cups` container image which this project helped spur on.
+
 ## About
 This is a series of sample YAML files that stand up a CUPS print server running from within OpenShift or Kubernetes.  It uses the `quay.io/robbmanes/cups:latest` image for the CUPS server, which is built from `registry.fedoraproject.org/fedora-minimal`.  The [Dockerfile](Dockerfile) for this image can be found within this repository.
 
